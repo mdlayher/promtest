@@ -14,7 +14,7 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promhttp"
-	"github.com/prometheus/prometheus/util/promlint"
+	"github.com/prometheus/client_golang/prometheus/testutil/promlint"
 )
 
 // Collect sets up a temporary HTTP server and performs a single scrape of the
