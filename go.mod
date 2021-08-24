@@ -3,8 +3,12 @@ module github.com/mdlayher/promtest
 go 1.12
 
 require (
-	github.com/golang/protobuf v1.4.1 // indirect
-	github.com/google/go-cmp v0.4.0
-	github.com/prometheus/client_golang v1.6.0
-	golang.org/x/sys v0.0.0-20200501145240-bc7a7d42d5c3 // indirect
+	github.com/cespare/xxhash/v2 v2.1.2 // indirect
+	github.com/golang/protobuf v1.5.2 // indirect
+	github.com/google/go-cmp v0.5.6
+	github.com/prometheus/client_golang v1.11.0
+	github.com/prometheus/common v0.30.0 // indirect
+	github.com/prometheus/procfs v0.7.3 // indirect
+	golang.org/x/sys v0.0.0-20210823070655-63515b42dcdf // indirect
+	google.golang.org/protobuf v1.27.1 // indirect
 )
